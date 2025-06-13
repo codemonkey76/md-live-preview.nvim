@@ -2,7 +2,7 @@
 
 A blazing-fast live Markdown preview plugin for Neovim, powered by a Rust backend.
 
-Integrates seamlessly with a companion server ([md-live-preview-server](https://github.com/your-username/md-live-preview-server)) to deliver GitHub-flavored Markdown (GFM) previews in your browser, updated in real time as you type.
+Integrates seamlessly with a companion server ([markdown-live-preview](https://github.com/codemonkey76/markdown-live-preview)) to deliver GitHub-flavored Markdown (GFM) previews in your browser, updated in real time as you type.
 
 > [!TIP]
 > This plugin is a frontend for a TCP-connected Rust app that renders your Markdown into HTML using Comrak and serves it via Axum.
@@ -27,7 +27,7 @@ Integrates seamlessly with a companion server ([md-live-preview-server](https://
 ### 📦 Requirements
 
 - Neovim 0.9+
-- Rust installed with [`md-live-preview-server`](https://github.com/your-username/md-live-preview-server) built and available in `$PATH`
+- Rust installed with [markdown-live-preview](https://github.com/codemonkey76/markdown-live-preview) built and available in `$PATH`
 
 ### 🧑‍💻 Installation (Lazy.nvim)
 
@@ -109,5 +109,5 @@ MIT © Shane Poppleton
 
 ### 🤝 Related Projects
 
-- [md-live-preview-server](https://github.com/codemonkey76/markdown-live-preview) — the backend rendering engine
+- [markdown-live-preview](https://github.com/codemonkey76/markdown-live-preview) — the backend rendering engine
 - [Comrak](https://github.com/kivikakk/comrak) — CommonMark + GFM parser
