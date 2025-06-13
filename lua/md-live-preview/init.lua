@@ -46,10 +46,6 @@ function M.setup(opts)
     cmd = "markdown-preview-server",
   }, opts or {})
 
-  if config.verbose then
-    vim.notify("Running md-live-preview.nvim setup with options: " .. vim.inspect(opts), vim.log.levels.INFO)
-  end
-
   vim.api.nvim_create_user_command("MDPreviewStart", M.start, {})
   vim.api.nvim_create_user_command("MDPreviewStop", M.stop, {})
 end
